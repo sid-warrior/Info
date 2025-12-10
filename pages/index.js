@@ -3,13 +3,12 @@ import Link from "next/link";
 import {
   ArrowSquareOut,
   InstagramLogo,
+  Lock,
   XLogo,
   MapPinSimple,
   Code,
   Briefcase,
-  Asterisk,
   Newspaper,
-  Buildings,
 } from "@phosphor-icons/react";
 import { BlogList } from "components";
 import { getAllPosts } from "pages/api/blog";
@@ -60,17 +59,17 @@ const TIMELINE = [
 const IMAGES = [
   {
     src: "/images/pages/home/rishi-goa-1.jpg",
-    place: "Nice, France",
+    place: "Chandigarh, India",
     className: "md:rotate-[2deg]",
   },
   {
     src: "/images/pages/home/rishi-tomatina-1.jpg",
-    place: "Berlin, Germany",
+    place: "Khajjiar,HP",
     className: "md:rotate-[2deg]",
   },
   {
     src: "/images/pages/home/rishi-side-1.jpg",
-    place: "Luxembourg",
+    place: "Punjab, India",
     className: "md:rotate-[2deg]",
   },
   {
@@ -81,31 +80,16 @@ const IMAGES = [
 ];
 
 const INFO = [
+  
   {
-    text: (
-      <>
-        Founder at{" "}
-        <Link
-          target="_blank"
-          href="https://daskrad.com"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          DaSkrad
-        </Link>
-      </>
-    ),
-    icon: <Buildings />,
-    className: "bg-slate-50 text-slate-800",
-  },
-  {
-    text: "From India, based in Berlin",
+    text: "Chandigarh, India",
     icon: <MapPinSimple />,
-    className: "bg-yellow-50 text-yellow-800",
+    className: "bg-green-100 text-green-900",
   },
   {
-    text: "Indie-hacking, Design & Engineering",
-    icon: <Asterisk />,
-    className: "bg-purple-50 text-purple-800",
+    text: "Running, Gym Design & Develp",
+    icon: <Lock />,
+    className: "bg-red-50 text-red-800",
   },
 
   {
@@ -117,7 +101,7 @@ const INFO = [
           href="https://pika.style"
           className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
         >
-          Pika
+          Coloration
         </Link>{" "}
         and{" "}
         <Link
@@ -171,7 +155,7 @@ const INFO = [
         href="https://twitter.com/thelifeofrishi"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
-        Thoughts on Twitter
+        Networking on Twitter
       </Link>
     ),
     icon: <XLogo />,
@@ -184,7 +168,7 @@ const INFO = [
         href="https://instagram.com/thelifeofrishi"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
-        Adventures on Instagram
+        Style on Instagram
       </Link>
     ),
     icon: <InstagramLogo />,
@@ -436,7 +420,7 @@ export default function Home({ allPosts, allProjects, post }) {
             </h2>
             <Link
               className="bg-transparent border-gray-200 dark:border-gray-700/70 border text-sm px-2 py-px rounded-lg flex gap-1 items-center"
-              href="https://instagram.com/thelifeofrishi"
+              href="https://instagram.com/5iddddddd"
               target="_blank"
             >
               <InstagramLogo /> Instagram
@@ -446,8 +430,7 @@ export default function Home({ allPosts, allProjects, post }) {
 
           <div className="mt-2 mb-8">
             <p>
-              I love to travel and take photos. I also have been maintaining a
-              map of all the places I've been to, you can{" "}
+             Check out my aesthetic portfolio{" "}
               <Link className="border-b" href="/map">
                 check it here
               </Link>

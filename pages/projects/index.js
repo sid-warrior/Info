@@ -7,17 +7,17 @@ export default function Home({ allProjects }) {
   return (
     <>
       <NextSeo
-        title="Projects – Rishi Mohan"
+        title="Projects – Sidhant"
         description="A list of all my side-projects, mostly written in React.js, React Native, Next.js and TailwindCSS."
         openGraph={{
-          site_name: "Projects – Rishi Mohan",
-          title: "Projects – Rishi Mohan",
+          site_name: "Projects – sidhant",
+          title: "Projects – Sidhant",
           description:
             "A list of all my side-projects, mostly written in React.js, React Native, Next.js and TailwindCSS.",
         }}
         twitter={{
-          handle: "@thelifeofrishi",
-          site: "@thelifeofrishi",
+          handle: "@5iddddddd",
+          site: "@5iddddddd",
           cardType: "summary_large_image",
         }}
       />

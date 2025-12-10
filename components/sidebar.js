@@ -31,17 +31,17 @@ export default function Sidebar() {
   const SOCIAL_LINKS = [
     {
       title: "Email",
-      url: "mailto:hi@rishimohan.me",
+      url: "mailto:sidhant2425@gmail.com",
       icon: <Envelope />,
     },
     {
       title: "Twitter",
-      url: "https://twitter.com/thelifeofrishi",
+      url: "https://twitter.com/5iddddddd",
       icon: <TwitterLogo />,
     },
     {
       title: "Instagram",
-      url: "https://instagram.com/thelifeofrishi",
+      url: "https://instagram.com/5iddddddd",
       icon: <InstagramLogo />,
     },
     {
@@ -51,7 +51,7 @@ export default function Sidebar() {
     },
     {
       title: "Github",
-      url: "https://github.com/rishimohan",
+      url: "https://github.com/sid-warrior",
       icon: <GithubLogo />,
     },
   ];

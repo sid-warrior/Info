@@ -6,7 +6,7 @@ import { ContentWrapper } from "ui";
 export default function Pen({}) {
   return (
     <>
-      <NextSeo title="Pen - Rishi Mohan" />
+      <NextSeo title="Pen - Sidhant" />
 
       <ContentWrapper width="620px">
         <h2 className="font-medium text-black text-2xl mb-4 mt-4">Pen</h2>
