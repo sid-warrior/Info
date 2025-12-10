@@ -5,9 +5,9 @@ import {
   InstagramLogo,
   Lock,
   XLogo,
+  MapPin,
   MapPinSimple,
   Code,
-  Briefcase,
   Newspaper,
 } from "@phosphor-icons/react";
 import { BlogList } from "components";
@@ -83,15 +83,14 @@ const INFO = [
   
   {
     text: "Chandigarh, India",
-    icon: <MapPinSimple />,
-    className: "bg-green-100 text-green-900",
+    icon: <MapPin />,
+    className: "bg-blue-100 text-blue-900",
   },
   {
     text: "Running, Gym Design & Develp",
     icon: <Lock />,
-    className: "bg-red-50 text-red-800",
+    className: "bg-blue-50 text-blue-800",
   },
-
   {
     text: (
       <>
@@ -109,43 +108,11 @@ const INFO = [
           href="https://orshot.com"
           className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
         >
-          Orshot
+          E Point
         </Link>
       </>
     ),
     icon: <Code />,
-    className: "bg-emerald-50 text-emerald-800",
-  },
-  {
-    text: (
-      <>
-        Previously at{" "}
-        <Link
-          target="_blank"
-          href="https://graph.one"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          Borg
-        </Link>
-        ,{" "}
-        <Link
-          target="_blank"
-          href="https://bigbinary.com"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          BigBinary
-        </Link>{" "}
-        and{" "}
-        <Link
-          target="_blank"
-          href="https://instahyre.com"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          Instahyre
-        </Link>
-      </>
-    ),
-    icon: <Briefcase />,
     className: "bg-blue-50 text-blue-800",
   },
   {
@@ -172,7 +139,7 @@ const INFO = [
       </Link>
     ),
     icon: <InstagramLogo />,
-    className: "text-orange-900 bg-orange-50",
+    className: "text-pink-900 bg-pink-50",
   },
 ];
 
@@ -230,12 +197,14 @@ export default function Home({ allPosts, allProjects, post }) {
         className="divide-y divide-gray-200 dark:divide-gray-800 space-y-6"
       >
         <div className="">
-          <h2 className="mb-3 md:mb-4 text-3xl">
-            <span className="opacity-70">Hi 👋, I'm </span>
-            <span className="font-bold text-black dark:text-white">
-              Rishi Mohan!
+          <h2 className="mb-1 md:mb-1 text-3xl">
+            <span className="opacity-90">Sidhant 21</span>
+            </h2>
+            <h2 className="mb-2 md:mb-2">
+            <span className="font-medium opacity-70">
+              Designer & Developer
             </span>
-          </h2>
+            </h2>
           <div className="flex flex-wrap gap-2 text-sm">
             {INFO?.map((item, index) => (
               <div
@@ -253,7 +222,7 @@ export default function Home({ allPosts, allProjects, post }) {
         </div>
         <div className="pt-6 pb-2">
           <h2 className="text-xl font-medium text-black dark:text-white mb-4">
-            Side-projects
+            Craft/projects
           </h2>
           <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
             {allProjects?.map((project) => (

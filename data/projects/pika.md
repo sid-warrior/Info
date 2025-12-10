@@ -1,10 +1,10 @@
 ---
 date: 2021-12-29 21:11:00 +0530
-title: "Pika"
+title: "Valora"
 slug: pika
 tech: ["Next.js", "TailwindCSS"]
 web: https://pika.style
-icon: /images/work/show/pika-icon.png
+icon: /images/work/show/pika-icon.svg
 active: true
 tagline: Beautiful Screenshots and Mockups
 status: Active

@@ -36,7 +36,7 @@ export default function MainLayout({ children }) {
               href="https://github.com/rishimohan/rishimohan.me"
               target="_blank"
             >
-              Code on Github
+              check out code
             </Link>
           </div>
         </ContentWrapper>

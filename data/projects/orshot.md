@@ -1,12 +1,12 @@
 ---
 date: 2025-02-01 21:11:00 +0530
-title: "Orshot"
+title: "Coloration"
 slug: orshot
 tech: ["Next.js", "TailwindCSS", "Shadcn UI", "Stripe", "Supabase"]
 web: https://orshot.com
 icon: /images/work/show/orshot-icon.svg
 active: true
-tagline: Automation for Creative Marketing
+tagline: Switch formats. Generate palettes. Export to CSS & Tailwind instantly..
 status: Active
 statusText: ["$$$$/m"]
 ---

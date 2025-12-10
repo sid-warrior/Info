@@ -27,11 +27,11 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
       <>
         <DefaultSeo
-          title="Hi, Sidhant this side!"
+          title="Sidhant-Portfolio"
           description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."
           canonical={canonicalUrl}
           openGraph={{
-            site_name: "Hi, Sidhant this side!",
+            site_name: "Sidhant,21",
             title: "Hi, Sidhant this side!",
             description:
               "I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.",

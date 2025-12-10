@@ -76,8 +76,6 @@ export async function getStaticProps({ params }) {
     "image",
     "excerpt",
     "content",
-    "link",
-    "ogImage",
   ]);
 
   const post = getPostBySlug(params.slug, [

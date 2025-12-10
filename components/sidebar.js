@@ -92,12 +92,7 @@ export default function Sidebar() {
     //   icon: <Flask size={16} />,
     //   active: pathname.includes("/experiments"),
     // },
-    {
-      title: "Travel Map",
-      url: "/map",
-      icon: <Compass size={16} />,
-      active: pathname === "/map",
-    },
+    
     // {
     //   title: "Newsletter",
     //   url: "https://thelifeofrishi.substack.com",
