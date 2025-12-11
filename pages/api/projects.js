@@ -17,11 +17,15 @@ export function getPostBySlug(slug, fields = []) {
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {
+    // Always prefer the file-based slug to avoid mismatches with frontmatter
     if (field === "slug") {
       items[field] = realSlug;
+      return;
     }
+
     if (field === "content") {
       items[field] = content;
+      return;
     }
 
     if (typeof data[field] !== "undefined") {
