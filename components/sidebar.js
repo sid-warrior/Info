@@ -46,7 +46,7 @@ export default function Sidebar() {
     },
     {
       title: "LinkedIn",
-      url: "https://linkedin.com/in/thelifeofrishi",
+      url: "https://linkedin.com/in/sidhant2425",
       icon: <LinkedinLogo />,
     },
     {
@@ -102,9 +102,9 @@ export default function Sidebar() {
     // },
     {
       title: "Resume",
-      url: "https://peerlist.io/rishimohan",
+      url: "https://drive.google.com/file/d/1yrKwFQ9H5jon8XMF8va01QfERkRz_VQN/view",
       icon: <IdentificationCard size={16} />,
-      active: false,
+      active: true,
       external: true,
     },
   ];
@@ -112,19 +112,19 @@ export default function Sidebar() {
   const SOCIAL = [
     {
       title: "Github",
-      url: `https://github.com/rishimohan`,
+      url: `https://github.com/sid-warrior`,
       icon: <GithubLogo size={16} />,
       external: true,
     },
     {
       title: "Twitter",
-      url: `https://twitter.com/${process.env.twitter}`,
+      url: `https://twitter.com/5iddddddd`,
       icon: <TwitterLogo size={16} />,
       external: true,
     },
     {
       title: "Instagram",
-      url: `https://instagram.com/${process.env.instagram}`,
+      url: `https://instagram.com/5iddddddd`,
       icon: <InstagramLogo size={16} />,
       external: true,
     },
@@ -135,8 +135,8 @@ export default function Sidebar() {
     //   external: true,
     // },
     {
-      title: "hi@rishimohan.me",
-      url: `mailto:hi@rishimohan.me`,
+      title: "sidhant2425@gmail.com",
+      url: `mailto:sidhant2425@gmail.com`,
       icon: <At size={16} />,
       external: false,
     },
