@@ -1,9 +1,9 @@
 ---
 date: 2020-04-23 21:11:00 +0530
-title: "Maazi"
+title: "Work in Progress"
 slug: maazi
 tech: ["React Native", "TailwindRN", "Firebase"]
-web: http://maazi.vercel.app/
+web: 
 ios: https://apps.apple.com/us/app/maazi-personal-diary/id1535320472
 icon: /images/work/show/maazi-icon.png
 active: true
@@ -11,9 +11,8 @@ tagline: Journaling app for iOS and Web
 status: Active
 ---
 
-![Maazi Screenshot](/images/work/show/maazi-app.png)
+![Maazi Screenshot](/images/work/show/maazi-app.png.)
 
-Maazi is a personal diary app, which I wrote to practically learn React native, enough that I can create standard app and good enough to be pushed in App stores. The app lets your write diary entries or record as voice entries and store in cloud. Your account data is secure and can only be accessed by you.
 
 ## Features
 

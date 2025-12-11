@@ -97,7 +97,7 @@ const INFO = [
         Building{" "}
         <Link
           target="_blank"
-          href="https://pika.style"
+          href="https://checkcolor.vercel.app/"
           className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
         >
           Coloration
@@ -105,7 +105,7 @@ const INFO = [
         and{" "}
         <Link
           target="_blank"
-          href="https://orshot.com"
+          href="/"
           className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
         >
           E Point
@@ -341,46 +341,7 @@ export default function Home({ allPosts, allProjects, post }) {
             ))}
           </div>
         </div>
-        {/* <div>
-          <div className="mt-12 mb-4">
-            <h2 className="text-base flex items-center">
-              <Star size={20} className="mr-2 opacity-40" />
-              Connecting dots backwards
-            </h2>
-          </div>
-
-          <div className="">
-            <div className="relative pl-8">
-              <div className="h-full w-[1px] bg-gray-200 dark:bg-gray-800 left-[10px] top-[5px] absolute"></div>
-              {TIMELINE?.map((item, index) => (
-                <div key={item.title + index} className="mb-10 relative">
-                  <div className="w-3 h-3 rounded-full absolute left-[-30px] top-[16px]">
-                    <ArrowCircleRight
-                      size={24}
-                      className="bg-white text-gray-400 dark:text-gray-400 dark:bg-gray-900 rounded-full"
-                    />
-                  </div>
-                  <p className="opacity-40 text-xs">{item.date}</p>
-
-                  <h3 className="leading-tight mb-1 font-medium text-sm md:text-base inline-block">
-                    <span className="">{item.title}</span>
-                    {item?.link ? (
-                      <Link href={item.link} target="_blank">
-                        <span className="inline-block ml-1 opacity-80">
-                          <ArrowSquareOut size={12} />
-                        </span>
-                      </Link>
-                    ) : (
-                      ""
-                    )}
-                  </h3>
-
-                  <p className="opacity-60 text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div> */}
+        {}
 
         <div>
           <div className="flex items-center mt-10 gap-3">

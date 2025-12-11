@@ -4,28 +4,15 @@ title: "Valora"
 slug: pika
 tech: ["Next.js", "TailwindCSS"]
 web: https://pika.style
-icon: /images/work/show/pika-icon.svg
+icon: /images/work/show/pika-icon.png
 active: true
-tagline: Beautiful Screenshots and Mockups
+tagline: Crypto Marketplace with daily Digital coin update
 status: Active
-statusText: ["$$$$/m"]
 ---
 
 ![Pika Screenshot](/images/work/show/pika-preview.png)
 
-Created Pika to quickly generate shareable screenshots
-from boring screenshots. Previous workflow included
-involvement of Figma in which I had to open the app
-and then figure out the background gradient and shadows etc.
+Valora Crypto Marketplace: Your trusted gateway to the crypto economy. Seamlessly buy, sell, and grow your digital assets with unparalleled ease and security.Valora Crypto Marketplace: The future of finance is here. Command your crypto journey on a seamless, secure, and intuitive platform built for every investor
 
-Here's how it works:
-
-- You just paste your screenshot
-- Customize the screenshot, add background, shadow etc.
-- Copy the output image, or save it as PNG on your machine
-
-Pika saves your previous settings so when you load it again,
-it'll retain your last settings.
-
-Pika is semi open-source and
-the [code is available at Github](http://github.com/rishimohan/pika).
+Valora is semi open-source and
+the [code is available at Github](http://github.com/sid-warrior).
