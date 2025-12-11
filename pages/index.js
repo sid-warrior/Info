@@ -119,7 +119,7 @@ const INFO = [
     text: (
       <Link
         target="_blank"
-        href="https://twitter.com/thelifeofrishi"
+        href="https://twitter.com/5iddddddd"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
         Networking on Twitter
@@ -132,7 +132,7 @@ const INFO = [
     text: (
       <Link
         target="_blank"
-        href="https://instagram.com/thelifeofrishi"
+        href="https://instagram.com/5iddddddd"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
         Style on Instagram

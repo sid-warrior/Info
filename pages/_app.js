@@ -45,8 +45,8 @@ function MyApp({ Component, pageProps }) {
             ],
           }}
           twitter={{
-            handle: "@thelifeofrishi",
-            site: "@thelifeofrishi",
+            handle: "@5iddddddd",
+            site: "@5iddddddd",
             cardType: "summary_large_image",
           }}
           additionalLinkTags={[

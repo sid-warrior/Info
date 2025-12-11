@@ -33,7 +33,7 @@ export default function MainLayout({ children }) {
           <div>
             <Link
               className="text-sm opacity-60 hover:underline hover:opacity-100"
-              href="https://github.com/rishimohan/rishimohan.me"
+              href="https://github.com/rishimohan/sid-warrior"
               target="_blank"
             >
               check out code
