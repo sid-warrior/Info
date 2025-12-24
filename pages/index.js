@@ -322,7 +322,7 @@ export default function Home({ allPosts, allProjects, post }) {
                 <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
                  <div
                 className="font-bold text-pink-600 mt-1">
-              Panjab University
+              Panjab University(2022-25)
                 <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
             </div>
             </div>
