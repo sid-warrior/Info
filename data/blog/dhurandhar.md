@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "dhurandhar"
+title: "Dhurandhar"
 date: 2025-12-10 13:00:00 +0530
 categories: personal
 excerpt: Dhurandhar

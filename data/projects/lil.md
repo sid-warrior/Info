@@ -6,7 +6,7 @@ web: "https://button-ready.vercel.app/"
 tech: ["React.js", "Styled Component", "Components"]
 icon: "/images/work/show/lil-icon.png"
 tagline: UI Components library
-status: Inactive
+status: Active
 ---
 
 ![lil UI](/images/work/show/lil-post.png)

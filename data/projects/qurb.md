@@ -1,13 +1,23 @@
 ---
 date: 2018-04-23 21:11:00 +0530
-title: "E point"
+title: "ThemeTizer"
 slug: qurb
-web: "http://qurb.rishimohan.me"
+web: "/"
 tech: ["React.js", "SCSS"]
-tagline: Free tool to design device mockups
-status: Active
+tagline: Personalize Your Theme(Shadcn)
+status: Inactive
 ---
 
 ![Qurb Screenshot](/images/work/show/qurb-post.png)
 
-Qurb lets you generate mockup for iPhone X/XS/Max, iPad, MacBook and other devices quickly. Just select the device, add your screenshot and save the mockup. All the devices are designed in CSS, thanks to [Oleg](https://marvelapp.github.io/devices.css/). Also when you add your screenshot, it's not uploaded anywhere.
+Key Features:
+
+-Visual Preview: It provides a dashboard layout featuring various UI components (calendars, cards, payment forms, and data tables) that update in real-time as you change colors.
+
+-Color Customization: Users can pick primary colors, gray scales, and background colors to see how they look across a complete interface.
+
+-Code Generation: Once a user is happy with the look, the tool generates the necessary CSS variables or configuration code (usually for a globals.css file) that can be copied directly into a web development project.
+
+-Accessibility Testing: It helps developers ensure their color choices maintain proper contrast and look good in both light and dark modes.
+
+In short, it is a productivity tool for web developers to speed up the process of styling websites built with the shadcn/ui framework.

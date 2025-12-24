@@ -75,7 +75,7 @@ export default function Sidebar() {
       active: pathname.includes("/blog"),
     },
     {
-      title: "Pen",
+      title: "Kalam",
       url: "/pen",
       icon: <Note size={16} />,
       active: pathname.includes("/pen"),

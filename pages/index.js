@@ -87,7 +87,7 @@ const INFO = [
     className: "bg-blue-100 text-blue-900",
   },
   {
-    text: "Running, Gym Design & Develp",
+    text: "Running, Gym, Design & Develp",
     icon: <Lock />,
     className: "bg-blue-50 text-blue-800",
   },
@@ -145,9 +145,8 @@ const INFO = [
 
 const APPEARANCES = [
   {
-    title: "I Built A Screenshots App On The Side And Grew It To $3.8K/Month",
-    href: "https://www.starterstory.com/stories/pika",
-    publication: "StarterStory",
+    title: "Bachelor of Computer Applications",
+    href: "https://thehustlers.substack.com/p/30-side-hustler-who-built-an-app",
     type: "Interview",
   },
   {
@@ -302,43 +301,32 @@ export default function Home({ allPosts, allProjects, post }) {
             <h2 className=" text-xl font-medium text-black dark:text-white">
               Blog
             </h2>
-            <Button variant="secondary" className="text-sm" href="/blog" as="a">
+            <Button variant="secondary" className="text-sm" href="/ " as="a">
               View all blog posts →
             </Button>
           </div>
           <BlogList data={allPosts?.slice(0, 12)} activeSlug={post?.slug} />
         </div>
-        <div className="pt-8 pb-2">
+        <div className="pt-6 pb-1">
           <div className="flex items-center gap-3 pb-3">
             <h2 className=" text-xl font-medium text-black dark:text-white">
-              Appearances
+            Education
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
-            {APPEARANCES?.map((item) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2  gap-4">
               <div
-                key={item?.href + item?.title}
-                className="border rounded-xl p-3 text-sm bg-yellow-100/30 border-yellow-200 relative overflow-hidden group dark:bg-yellow-600/10 dark:border-yellow-900/40"
-              >
-                <Link href={item?.href} target="_blank">
-                  <h2>
-                    <div className="block">{item?.title}</div>
-                    <div className="mt-4">
-                      <ArrowSquareOut className="inline-block mr-1 relative top-[-2px] group-hover:scale-[1.1] duration-100" />
-                      <div className="font-semibold inline-block">
-                        {item?.publication}
-                      </div>
-                      <span className="px-1 opacity-40">/</span>
-                      <div className="inline-block opacity-40">
-                        {item?.type}
-                      </div>
-                    </div>
-                  </h2>
-                </Link>
-                <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.01] text-yellow-500" />
-              </div>
-            ))}
+                className="font border rounded-lg p-3 text-sm bg-black-100/30 border-red-200 relative overflow-hidden group dark:bg-white-600/10 dark:border-red-900/40">
+              Bachelor of Computer Applications
+              
+                <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
+                 <div
+                className="font-bold text-pink-600 mt-1">
+              Panjab University
+                <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
+            </div>
+            </div>
+            <br />
           </div>
         </div>
         {}
@@ -361,7 +349,7 @@ export default function Home({ allPosts, allProjects, post }) {
           <div className="mt-2 mb-8">
             <p>
              Check out my aesthetic portfolio{" "}
-              <Link className="border-b" href="/map">
+              <Link className="border-b" href="https://instagram.com/5iddddddd" target="_blank">
                 check it here
               </Link>
             </p>
