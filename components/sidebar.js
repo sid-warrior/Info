@@ -102,7 +102,7 @@ export default function Sidebar() {
     // },
     {
       title: "Resume",
-      url: "https://drive.google.com/file/d/1yrKwFQ9H5jon8XMF8va01QfERkRz_VQN/view",
+      url: "https://drive.google.com/file/d/1ey423zl3017eNjvYtzR2EmShMiLWZcAl/view",
       icon: <IdentificationCard size={16} />,
       active: true,
       external: true,
