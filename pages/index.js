@@ -80,7 +80,7 @@ const IMAGES = [
 ];
 
 const INFO = [
-  
+
   {
     text: "Chandigarh, India",
     icon: <MapPin />,
@@ -132,7 +132,7 @@ const INFO = [
     text: (
       <Link
         target="_blank"
-        href="https://instagram.com/5iddddddd"
+        href="https://instagram.com/5idhantt"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
         Style on Instagram
@@ -140,51 +140,6 @@ const INFO = [
     ),
     icon: <InstagramLogo />,
     className: "text-pink-900 bg-pink-50",
-  },
-];
-
-const APPEARANCES = [
-  {
-    title: "Bachelor of Computer Applications",
-    href: "https://thehustlers.substack.com/p/30-side-hustler-who-built-an-app",
-    type: "Interview",
-  },
-  {
-    title: "Side Hustler Who Built an App that generates $2K MRR",
-    href: "https://thehustlers.substack.com/p/30-side-hustler-who-built-an-app",
-    publication: "The Hustlers",
-    type: "Interview",
-  },
-  {
-    title: "Self teaching how to code and growing a side project to 4000$ MRR",
-    href: "https://open.spotify.com/episode/1t58f1SkAPF1cbD5xAcTbK",
-    publication: "Founder Stories",
-    type: "Podcast",
-  },
-  {
-    title:
-      "How One Expertimental App Pika.Style Turned into a Business Project",
-    href: "https://en.trafficcardinal.com/post/25k-year-how-one-expertimental-app-pika-style-turned-into-a-business-project-interview-with-rishi-mohan",
-    publication: "Traffic Cardinal",
-    type: "Interview",
-  },
-  {
-    title: "Interview with the founder of Pika Style",
-    href: "https://boringcashcow.com/interview/interview-with-the-founder-of-pika-style",
-    publication: "BoringCashCow",
-    type: "Interview",
-  },
-  {
-    title: "Rishi Grows Pika to $700 MRR in Only 7 Months",
-    href: "https://founderbeats.com/micro-saas-screenshots-to-images-pika",
-    publication: "FounderBeats",
-    type: "Interview",
-  },
-  {
-    title: "Discover One Amazing Creator Everyday #Creator61",
-    href: "https://fueler.io/blog/discover-one-amazing-creator-everyday-creator61",
-    publication: "Fueler",
-    type: "Interview",
   },
 ];
 
@@ -196,6 +151,7 @@ export default function Home({ allPosts, allProjects, post }) {
         className="divide-y divide-gray-200 dark:divide-gray-800 space-y-6"
       >
         <div className="">
+           <img src="/images/pages/home/sidd.jpeg" alt="Sid" className="inline-block w-28 h-28 ml-56px border border-gray-200 dark:border-gray-800 rounded-full" />
           <h2 className="mb-1 md:mb-1 text-3xl">
             <span className="opacity-90">Sidhant 21</span>
             </h2>
@@ -293,19 +249,36 @@ export default function Home({ allPosts, allProjects, post }) {
                   </div>
                 </Link>
               </div>
+              
             ))}
           </div>
         </div>
+        <Button variant="secondary" className="text-sm" href="/projects" as="a">
+              View all Projects →
+            </Button>
         <div className="pt-8 pb-2">
           <div className="flex items-center gap-3 pb-3">
             <h2 className=" text-xl font-medium text-black dark:text-white">
-              Blog
+              Experience
             </h2>
-            <Button variant="secondary" className="text-sm" href="/ " as="a">
-              View all blog posts →
-            </Button>
+            
           </div>
-          <BlogList data={allPosts?.slice(0, 12)} activeSlug={post?.slug} />
+          <div className="grid grid-cols-1  gap-4">
+              <div className="text-black-600/80 dark:text-gray-300/80 border rounded-lg p-3 text-sm bg-black-100/30 border-pink-200 relative overflow-hidden group dark:bg-white-600/10 dark:border-pink-900/40">
+                <div className="text-2xl text-black font-bold mt-1 dark:text-white">
+              Freelance Developer
+              <div className="text-xs font-normal mt-1">
+               Jan 2025 - present · 1 yrs
+              </div>
+               </div>
+                 <div
+                className="text-sm text-black-600 mt-1">
+              - Designed and developed responsive websites from scratch <br />
+              - Ensuring clean UI/UX and smooth animations<br />
+              - Managed end-to-end project execution, from wireframing and prototyping to <br />deployment and maintenance
+            </div>
+            </div>
+          </div>
         </div>
         <div className="pt-6 pb-1">
           <div className="flex items-center gap-3 pb-3">
