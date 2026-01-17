@@ -58,8 +58,8 @@ const TIMELINE = [
 
 const IMAGES = [
   {
-    src: "/images/pages/home/rishi-goa-1.jpg",
-    place: "Chandigarh, India",
+    src: "/images/pages/home/sid.jpg ",
+    place: "Chandigarh",
     className: "md:rotate-[2deg]",
   },
   {
@@ -74,7 +74,7 @@ const IMAGES = [
   },
   {
     src: "/images/pages/home/rishi-antalya-1.jpg",
-    place: "Berlin, Germany",
+    place: "Mohali,Punjab",
     className: "md:rotate-[-2deg]",
   },
 ];
@@ -84,45 +84,16 @@ const INFO = [
   {
     text: "Chandigarh, India",
     icon: <MapPin />,
-    className: "bg-blue-100 text-blue-900",
-  },
-  {
-    text: "Running, Gym, Design & Develp",
-    icon: <Lock />,
-    className: "bg-blue-50 text-blue-800",
-  },
-  {
-    text: (
-      <>
-        Building{" "}
-        <Link
-          target="_blank"
-          href="https://checkcolor.vercel.app/"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          Coloration
-        </Link>{" "}
-        and{" "}
-        <Link
-          target="_blank"
-          href="/"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          E Point
-        </Link>
-      </>
-    ),
-    icon: <Code />,
-    className: "bg-blue-50 text-blue-800",
+    className: "decoration-gray-200 decoration-[1px] hover:decoration-current",
   },
   {
     text: (
       <Link
         target="_blank"
         href="https://twitter.com/5iddddddd"
-        className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        className="bg-transparent border-gray-200 "
       >
-        Networking on Twitter
+        Shitposting on Twitter
       </Link>
     ),
     icon: <XLogo />,
@@ -133,7 +104,7 @@ const INFO = [
       <Link
         target="_blank"
         href="https://instagram.com/5idhantt"
-        className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        className=" decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
         Style on Instagram
       </Link>
@@ -141,25 +112,30 @@ const INFO = [
     icon: <InstagramLogo />,
     className: "text-pink-900 bg-pink-50",
   },
+
 ];
 
 export default function Home({ allPosts, allProjects, post }) {
   return (
-    <div className="grid md:grid-cols-1 mt-0 md:mt-4">
+    <div className="grid md:grid-cols-1 mt-20 md:mt-4">
       <ContentWrapper
         width="620px"
         className="divide-y divide-gray-200 dark:divide-gray-800 space-y-6"
       >
         <div className="">
-           <img src="/images/pages/home/sidd.jpeg" alt="Sid" className="inline-block w-28 h-28 ml-56px border border-gray-200 dark:border-gray-800 rounded-full" />
           <h2 className="mb-1 md:mb-1 text-3xl">
             <span className="opacity-90">Sidhant 21</span>
-            </h2>
-            <h2 className="mb-2 md:mb-2">
-            <span className="font-medium opacity-70">
+          </h2>
+          <h2 className="relative underline decoration-wavy underline-offset-4 duration-500 mb-8 md:mb-4 [text-decoration-color:#3b82f6]">
+            <span className="font-small opacity-70">
               Designer & Developer
             </span>
             </h2>
+            <h3 className="font-small opacity-70 mb-0 mt-4">
+              I started as a tech-obsessed nerdy designer.obsessed over,I’ve always lived at the edge of design and code.I now balance my time between building products and mentoring the next generation of design engineers.
+            </h3>
+            <br />
+          
           <div className="flex flex-wrap gap-2 text-sm">
             {INFO?.map((item, index) => (
               <div
@@ -249,60 +225,60 @@ export default function Home({ allPosts, allProjects, post }) {
                   </div>
                 </Link>
               </div>
-              
+
             ))}
           </div>
         </div>
         <Button variant="secondary" className="text-sm" href="/projects" as="a">
-              View all Projects →
-            </Button>
+          View all Projects →
+        </Button>
         <div className="pt-8 pb-2">
           <div className="flex items-center gap-3 pb-3">
             <h2 className=" text-xl font-medium text-black dark:text-white">
               Experience
             </h2>
-            
+
           </div>
           <div className="grid grid-cols-1  gap-4">
-              <div className="text-black-600/80 dark:text-gray-300/80 border rounded-lg p-3 text-sm bg-black-100/30 border-pink-200 relative overflow-hidden group dark:bg-white-600/10 dark:border-pink-900/40">
-                <div className="text-2xl text-black font-bold mt-1 dark:text-white">
-              Freelance Developer
-              <div className="text-xs font-normal mt-1">
-               Jan 2025 - present · 1 yrs
+            <div className="text-black-600/80 dark:text-gray-300/80 border rounded-lg p-3 text-sm bg-black-100/30 border-pink-200 relative overflow-hidden group dark:bg-white-600/10 dark:border-pink-900/40">
+              <div className="text-2xl text-black font-bold mt-1 dark:text-white">
+                Freelance Developer
+                <div className="text-xs font-normal mt-1">
+                  Jan 2025 - present · 1 yrs
+                </div>
               </div>
-               </div>
-                 <div
+              <div
                 className="text-sm text-black-600 mt-1">
-              - Designed and developed responsive websites from scratch <br />
-              - Ensuring clean UI/UX and smooth animations<br />
-              - Managed end-to-end project execution, from wireframing and prototyping to <br />deployment and maintenance
-            </div>
+                - Designed and developed responsive websites from scratch <br />
+                - Ensuring clean UI/UX and smooth animations<br />
+                - Managed end-to-end project execution, from wireframing and prototyping to <br />deployment and maintenance
+              </div>
             </div>
           </div>
         </div>
         <div className="pt-6 pb-1">
           <div className="flex items-center gap-3 pb-3">
             <h2 className=" text-xl font-medium text-black dark:text-white">
-            Education
+              Education
             </h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2  gap-4">
-              <div
-                className="font border rounded-lg p-3 text-sm bg-black-100/30 border-red-200 relative overflow-hidden group dark:bg-white-600/10 dark:border-red-900/40">
+            <div
+              className="font border rounded-lg p-3 text-sm bg-black-100/30 border-red-200 relative overflow-hidden group dark:bg-white-600/10 dark:border-red-900/40">
               Bachelor of Computer Applications
-              
+
+              <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
+              <div
+                className="font-bold mt-1">
+                Panjab University 2022-25
                 <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
-                 <div
-                className="font-bold text-pink-600 mt-1">
-              Panjab University(2022-25)
-                <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.05] text-red-500" />
-            </div>
+              </div>
             </div>
             <br />
           </div>
         </div>
-        {}
+        { }
 
         <div>
           <div className="flex items-center mt-10 gap-3">
@@ -311,21 +287,12 @@ export default function Home({ allPosts, allProjects, post }) {
             </h2>
             <Link
               className="bg-transparent border-gray-200 dark:border-gray-700/70 border text-sm px-2 py-px rounded-lg flex gap-1 items-center"
-              href="https://instagram.com/5iddddddd"
+              href="https://instagram.com/5idhantt"
               target="_blank"
             >
               <InstagramLogo /> Instagram
               <ArrowSquareOut />
             </Link>
-          </div>
-
-          <div className="mt-2 mb-8">
-            <p>
-             Check out my aesthetic portfolio{" "}
-              <Link className="border-b" href="https://instagram.com/5iddddddd" target="_blank">
-                check it here
-              </Link>
-            </p>
           </div>
 
           <div className=" mt-5 justify-center relative group">
@@ -344,10 +311,10 @@ export default function Home({ allPosts, allProjects, post }) {
                     className="rounded-[9px] object-cover w-full h-full"
                     loading="lazy"
                   />
-                  {/* <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white/90 backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">
-                  <MapPin size={14} className="mr-1" />
+                  {<div className="font-mono text-xs absolute bottom-[3%] left-[4%] text-white inline-flex px-2 py-px items-center">
+                  <MapPin size={10} className="" />
                   {item?.place}
-                </div> */}
+                </div> }
                 </div>
               ))}
             </div>
@@ -355,6 +322,7 @@ export default function Home({ allPosts, allProjects, post }) {
         </div>
       </ContentWrapper>
     </div>
+
   );
 }
 
@@ -398,8 +366,8 @@ export async function getStaticProps() {
           left.hasOwnProperty("active")
             ? -1
             : right.hasOwnProperty("active")
-            ? 1
-            : 0
+              ? 1
+              : 0
         )
         ?.slice(0, 6),
     },
